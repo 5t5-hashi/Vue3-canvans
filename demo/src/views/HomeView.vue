@@ -38,9 +38,25 @@ const data = reactive({
   openKeys: ["demo1"],
   menu: [
     {
-      name: "demo1",
+      name: "canvas",
       key: "demo1",
-      childrens: [{ name: "移动图片", key: "move1", path: "move1" }],
+      childrens: [
+        { name: "移动图片", key: "move1", path: "/move1" },
+        { name: "键盘控制移动图片", key: "move2", path: "/move2" },
+      ],
+    },
+    {
+      name: "three",
+      key: "three",
+      childrens: [
+        { name: "起步", key: "three1", path: "/three1" },
+        { name: "画线", key: "three2", path: "/three2" },
+      ],
+    },
+    {
+      name: "css",
+      key: "css",
+      childrens: [{ name: "滑动视频变化", key: "scroll1", path: "/scroll1" }],
     },
   ],
 });

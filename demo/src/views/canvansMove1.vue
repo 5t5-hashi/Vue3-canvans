@@ -110,7 +110,7 @@ function mouseup(e: any): void {
   data.mouseDown = false;
   data.inItem = false;
 
-  // 记录松手后的图形坐标
+  // 记录松手后的图形坐标已便下次点击时找到
   data.imgX = data.imgX + e.offsetX - data.x;
   data.imgY = data.imgY + e.offsetY - data.y;
   console.log(
