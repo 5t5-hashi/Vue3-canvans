@@ -10,27 +10,37 @@ const routes: Array<RouteRecordRaw> = [
       {
         path: "/move1",
         name: "canvansMove1",
-        component: () => import("@/views/canvansMove1.vue"),
+        component: () => import("@/views/canvas/canvansMove1.vue"),
       },
       {
         path: "/three1",
         name: "three1",
-        component: () => import("@/views/three1.vue"),
+        component: () => import("@/views/three/three1.vue"),
       },
       {
         path: "/three2",
         name: "three2",
-        component: () => import("@/views/three2.vue"),
+        component: () => import("@/views/three/three2.vue"),
       },
       {
         path: "/scroll1",
         name: "scroll1",
-        component: () => import("@/views/scroll1.vue"),
+        component: () => import("@/views/css/scroll1.vue"),
       },
       {
         path: "/move2",
         name: "move2",
-        component: () => import("@/views/move2.vue"),
+        component: () => import("@/views/canvas/move2.vue"),
+      },
+      {
+        path: "/pinia1",
+        name: "pinia1",
+        component: () => import("@/views/pinia/pinia1.vue"),
+      },
+      {
+        path: "/pinia2",
+        name: "pinia2",
+        component: () => import("@/views/pinia/pinia2.vue"),
       },
     ],
   },

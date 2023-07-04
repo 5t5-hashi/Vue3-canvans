@@ -58,6 +58,11 @@ const data = reactive({
       key: "css",
       childrens: [{ name: "滑动视频变化", key: "scroll1", path: "/scroll1" }],
     },
+    {
+      name: "pinia",
+      key: "pinia",
+      childrens: [{ name: "测试共享1", key: "pinia1", path: "/pinia1" },{ name: "测试共享2", key: "pinia2", path: "/pinia2" }],
+    },
   ],
 });
 
